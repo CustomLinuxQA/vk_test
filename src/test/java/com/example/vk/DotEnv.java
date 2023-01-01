@@ -2,7 +2,6 @@ package com.example.vk;
 import io.github.cdimascio.dotenv.Dotenv;
 
 
-
 public class DotEnv {
     public String LOGIN_PHONE() {
         Dotenv dotenv = Dotenv.load();
