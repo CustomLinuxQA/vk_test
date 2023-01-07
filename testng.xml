@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/olegtoropov/IdeaProjects/VK_test">
+        <classes>
+            <class name="com.example.vk.MainPageTest">
+                <methods>
+                    <include name="user_can_create_new_chat"/>
+                    <include name="user_can_attach_music_file_from_library"/>
+                    <include name="user_can_attach_image_file_from_library"/>
+                    <include name="user_can_attach_doc_file_from_library"/>
+                    <include name="user_can_attach_music_file_from_user_machine"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
