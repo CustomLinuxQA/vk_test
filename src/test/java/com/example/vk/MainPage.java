@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.$;
 // page_url = https://www.vk.com/
 public class MainPage {
     public SelenideElement groupButton = $("#l_gr");
-    public SelenideElement createGroupButton = $(".FlatButton__in");
+    public SelenideElement createGroupButton = $(".ui_tabs_right_section .FlatButton__content");
     public SelenideElement groupsCreateTileInterests = $(".groups_create_tile_interests");
     public SelenideElement titleGroup = $("#groups_create_box_title");
     public SelenideElement selectDropdown = $(".groups_create_box_input_padded .selector_dropdown");
